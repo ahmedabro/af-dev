@@ -19,7 +19,7 @@ const Bio = () => {
         Dynamic software developer with over 2 years of experience in crafting innovative frontend and backend solutions. I excel in creating seamless UI/UX experiences and delivering robust, fully functional web and mobile applications. My technology toolkit includes a diverse array of languages and frameworks such as HTML, CSS, JavaScript, ReactJS, NextJS, TypeScript, Bootstrap, Tailwind, MaterialUI, NodeJS, Express, MongoDB, Java, and SQL.
         </p>
         <p className='xl:text-lg mb-4 text-[#adadad]'>
-        Proven track record of developing user-friendly interfaces and scalable backend systems. Passionate about pushing the boundaries of digital solutions and enhancing user experiences through cutting-edge technologies. Always ready to take on new challenges and contribute to transformative projects in the ever-evolving corporate IT landscape. Let's collaborate and drive your projects to success!
+        Proven track record of developing user-friendly interfaces and scalable backend systems. Passionate about pushing the boundaries of digital solutions and enhancing user experiences through cutting-edge technologies. Always ready to take on new challenges and contribute to transformative projects in the ever-evolving corporate IT landscape. Let&apos;s collaborate and drive your projects to success!
         </p>
         <div className='flex gap-3 mt-10'>
             <Link href={"/contact"}>

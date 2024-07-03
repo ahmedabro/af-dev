@@ -16,7 +16,7 @@ const Banner = () => {
           <div>
             <h4 className="bg-gradient-to-br from-[#ffc2ee] to-[#7969bb] inline-block bg-clip-text text-transparent text-lg md:text-xl xl:text-2xl font-semibold mb-2">Hi, My name is</h4>
             <h1 className="text-3xl md:text-4xl xl:text-6xl font-bold mb-2 xl:mb-3">Ahmed Farooq</h1>
-            <h2 className={`${play.className} text-2xl xl:text-4xl font-semibold mb-2 xl:mb-3 inline-block`}>I'm a <Typewriter words={['Software Developer', 'Frontend Developer', 'MERN Stack Developer']} loop={0} /></h2>
+            <h2 className={`${play.className} text-2xl xl:text-4xl font-semibold mb-2 xl:mb-3 inline-block`}>I&apos;m a <Typewriter words={['Software Developer', 'Frontend Developer', 'MERN Stack Developer']} loop={0} /></h2>
             <p className="font-normal text-sm xl:text-base mb-2 xl:mb-3">
               Coffee, Code, and Conquer my daily life routine.
             </p>

@@ -79,7 +79,7 @@ const Skills = () => {
       <div className={`flex justify-center items-center flex-wrap gap-2 md:w-7/12`}>
         {
           skills.map(skill => (
-            <SkillsBox title={skill.title} src={skill.src} level={skill.level} imgColor={skill.imgColor} />
+            <SkillsBox key={skill.title} title={skill.title} src={skill.src} level={skill.level} imgColor={skill.imgColor} />
           ))
         }
       </div>

@@ -36,7 +36,7 @@ const Services = () => {
         <div className={`flex flex-col sm:flex-row justify-center gap-4 sm:gap-3 sm:flex-wrap lg:flex-nowrap items-center`}>
             {
                 services.map(service => (
-                    <ServiceBox title={service.title} icon={service.icon} description={service.description} />
+                    <ServiceBox key={service.title} title={service.title} icon={service.icon} description={service.description} />
                 ))
             }
         </div>
