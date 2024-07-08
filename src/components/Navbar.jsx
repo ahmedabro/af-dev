@@ -101,7 +101,7 @@ const Navbar = () => {
 
 
   return (
-    <div className={`h-24 w-full z-10 transition ease-in-out duration-500 ${scrolled ? "fixed top-0 bg-[#1a083d]" : "absolute bg-transparent top-0"}`}>
+    <div className={`h-24 w-full z-10 transition ease-in-out duration-500 ${scrolled ? "fixed top-0 bg-BG_NAVBAR" : "absolute bg-transparent top-0"}`}>
       <nav className={`h-full flex justify-between items-center px-5 sm:px-8 md:px-12 lg:px-32 xl:px-40`}>
       
 
@@ -146,7 +146,7 @@ const Navbar = () => {
             {links.map(link => {
               return (
                 <motion.div variants={listItemVariants} key={link.title}>
-                  <Link className={`flex justify-center items-center gap-4 py-3 ${link.url === pathName && 'bg-gradient-to-br from-[#c767ac] to-[#3919bb]'}`} href={link.url} onClick={() => setOpen(false)}>{link.icon}{link.title}</Link>
+                  <Link className={`flex justify-center items-center gap-4 py-3 ${link.url === pathName && 'bg-gradient-to-br from-THEME_PINK to-THEME_BLUE'}`} href={link.url} onClick={() => setOpen(false)}>{link.icon}{link.title}</Link>
                 </motion.div>
               )
             })}

@@ -11,7 +11,7 @@ const SkillsBox = ({title, src, level, imgColor}) => {
         <img src={src} className={`w-[55px] ${imgColor === "white" ? "brightness-0 invert" : ""}`} alt={title} title={title} />
         {/* <h3 className={`${play.className} font-semibold text-center text-xl mt-10`}>{title}</h3> */}
         <div className='w-full relative bg-[#7969bb29] border border-[#ffffff1c] h-2 rounded-md mt-5'>
-            <span className={`h-full bg-gradient-to-br from-[#3919bb] to-[#c767ac] absolute z-20`} style={{ width: `${level}%` }}></span>
+            <span className={`h-full bg-gradient-to-br from-THEME_BLUE to-THEME_PINK absolute z-20`} style={{ width: `${level}%` }}></span>
             <span style={{ width: `${level}%` }} className={`block text-right absolute z-30 top-[-20px]`}>{level}%</span>
         </div>
         

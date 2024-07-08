@@ -36,8 +36,8 @@ const DownloadResume = () => {
 
   return (
     <a href={downloadURL} download="resume.pdf" target='_blank'>
-        <div className='bg-gradient-to-br from-[#c767ac] to-[#3919bb] inline-flex justify-center items-center rounded p-[2px]'>
-            <span className='bg-[#100028] py-3 px-9 uppercase text-sm xl:text-lg text-center hover:bg-gradient-to-br from-[#c767ac] to-[#3919bb]'>{loading === true ? "Loading..." : "Download CV"}</span>
+        <div className='bg-gradient-to-br from-THEME_PINK to-THEME_BLUE inline-flex justify-center items-center rounded p-[2px]'>
+            <span className='bg-BG_COLOR py-3 px-9 uppercase text-sm xl:text-lg text-center hover:bg-gradient-to-br from-THEME_PINK to-THEME_BLUE'>{loading === true ? "Loading..." : "Download CV"}</span>
         </div>
     </a>
   )

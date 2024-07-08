@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="overflow-x-hidden">
-      <body className={`${josefin.className} bg-[#100028] text-white`}>
+      <body className={`${josefin.className} bg-BG_COLOR text-white`}>
         <div className="w-screen h-screen">
           <Navbar />
           <Scroller />

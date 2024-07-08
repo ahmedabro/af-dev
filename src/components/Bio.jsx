@@ -23,8 +23,8 @@ const Bio = () => {
         </p>
         <div className='flex gap-3 mt-10'>
             <Link href={"/contact"}>
-                <div className='bg-gradient-to-br from-[#c767ac] to-[#3919bb] inline-flex justify-center items-center rounded p-[2px]'>
-                    <span className='py-3 px-9 uppercase text-sm xl:text-lg text-center hover:bg-[#100028]'>Hire Me</span>
+                <div className='bg-gradient-to-br from-THEME_PINK to-THEME_BLUE inline-flex justify-center items-center rounded p-[2px]'>
+                    <span className='py-3 px-9 uppercase text-sm xl:text-lg text-center hover:bg-BG_COLOR'>Hire Me</span>
                 </div>
             </Link>
             <DownloadResume />

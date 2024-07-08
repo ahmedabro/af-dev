@@ -1,6 +1,6 @@
 import * as yup from 'yup'
 
-const nameRule = /^[a-zA-Z]+$/
+const nameRule = /^[a-zA-Z\s]+$/
 
 export const basicSchema = yup.object().shape({
     name: yup.string().matches(nameRule, {message: "Name should only be a string!"}).required("This field is required!"),
