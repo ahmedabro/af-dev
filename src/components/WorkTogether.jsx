@@ -8,9 +8,9 @@ const josefin = Josefin_Sans({ subsets: ["latin"] })
 
 const WorkTogether = () => {
   return (
-    <div className='w-screen md:flex items-center py-20'>
+    <div className='w-screen md:flex items-center pt-20'>
         <div className='md:w-3/5 px-5 md:px-20'>
-            <h2 className={`${play.className} text-4xl md:text-5xl xl:text-6xl font-semibold mb-8 xl:mb-16`}>Let&apos;s build an awesome project together</h2>
+            <h2 className={`${play.className} text-3xl md:text-4xl xl:text-5xl font-semibold mb-8 xl:mb-16`}>Let&apos;s build an awesome project together</h2>
             <ContactForm />
         </div>
         <div className='md:w-2/5 mt-10 md:mt-0'>

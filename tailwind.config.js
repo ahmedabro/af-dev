@@ -17,6 +17,7 @@ module.exports = {
         "THEME_PINK": "#b3014f",
         "THEME_BLUE": "#3919bb",
         "BG_NAVBAR": "#1a083d",
+        "BG_FOOTER": "#510023",
       }
     },
   },

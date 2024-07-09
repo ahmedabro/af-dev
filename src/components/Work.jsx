@@ -67,7 +67,7 @@ const Work = () => {
       <ul className='flex justify-center gap-8'>
         {
           tabsContent.map((tab, index) => (
-            <li key={index} onClick={() => handleClick(index)} className={`${activeTab === index ? "bg-gradient-to-br from-[#c767ac] to-[#3919bb]" : "bg-transparent"} py-1 px-7 rounded-3xl text-lg ease-in-out duration-500`}>{tab}</li>
+            <li key={index} onClick={() => handleClick(index)} className={`${activeTab === index ? "bg-gradient-to-br from-THEME_PINK to-THEME_BLUE" : "bg-transparent"} py-1 px-7 rounded-3xl text-lg ease-in-out duration-500`}>{tab}</li>
           ))
         }
       </ul>

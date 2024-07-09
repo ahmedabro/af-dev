@@ -116,7 +116,7 @@ const ContactForm = () => {
 
 
         <div className='flex justify-end'>
-            <button type='submit' className='py-3 px-9 bg-gradient-to-br from-[#c767ac] to-[#3919bb] inline-flex justify-center items-center rounded mt-10'>Send</button>
+            <button type='submit' className='py-3 px-9 bg-gradient-to-br from-THEME_PINK to-THEME_BLUE inline-flex justify-center items-center rounded mt-10'>Send</button>
         </div>
     </form>
   )

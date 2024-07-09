@@ -33,6 +33,7 @@ const Navbar = () => {
   //   }
   // })
 
+
   const fixNav = () => {
     if(window.scrollY >= 100) {
       setScrolled(true)
